@@ -1,0 +1,106 @@
+body{
+    height: 100vh;
+    background: linear-gradient(black 10%,rgb(62, 8, 177) 80%,black 500%,rgb(62, 8, 177) 80%);
+}
+
+
+
+
+.navbar{
+    background-color: black;
+    overflow: hidden;
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+.navbar li{
+    float: left;
+    margin-left: 20px;
+}
+ .active{
+    float: right;
+    margin-right: 300px;
+ }
+.navbar li:first-child{
+    margin-left: 0;
+}
+.navbar li a{
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.navbar li a:hover{
+    background-color: blue;
+    color: brown;
+}
+.button{
+    float: left;
+    padding:0;
+    border-radius:5px;
+    margin: 5px 5px 5px 5px;
+    display: block;
+    height: 50px;
+    width: 200px;
+    background-color:white;
+    border: 2px  solid white;
+    cursor: pointer;
+
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    
+}
+.highlighted{
+    color: green;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.btn-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: green;
+    color: black;
+    border-radius: 30px;
+    padding: 15px;
+    text-align: center;
+}
+
+h2{
+    color: aliceblue;
+}
+h6{
+    color: aliceblue;
+    font-size: 20px;
+}
+aside{
+    float:left;
+    font-size: 20px;
+}
+main{
+    float:right;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
